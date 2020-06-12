@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DbAfmrZhtwp3nhX3irMfBP4k2J5x1dXmrBqxPIBpeLLYl/oyeMrexToyycm08JCilPjJiV23I/ZUG9efcnE3pg==",
+  "dgSpecHash": "yDKenqC9AX9Hm0kLlnTr0D50ucyUVz4VTd3+S1bOdwXBXW7CcTtL7vbSdPIsI9CC+k3MVFtch1VoP975YbEBxw==",
   "success": true,
-  "projectFilePath": "F:\\VirtusaAssignment\\OSPCWebApi\\BAL\\BL.csproj",
+  "projectFilePath": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ananth\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
