@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BAL
+namespace BL
 {
     public class BusinessLogicLayer
     {
