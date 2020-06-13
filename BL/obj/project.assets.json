@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\BL.csproj",
-      "projectName": "BL",
-      "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\BL.csproj",
+      "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\OSPCBusinessLayer.csproj",
+      "projectName": "OSPCBusinessLayer",
+      "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\OSPCBusinessLayer.csproj",
       "packagesPath": "C:\\Users\\ananth\\.nuget\\packages\\",
       "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\obj\\",
       "projectStyle": "PackageReference",

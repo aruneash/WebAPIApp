@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\VirtusaAssignment\\OSPCWebApi\\BAL\\BusinessLayer.csproj": {}
+    "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "F:\\VirtusaAssignment\\OSPCWebApi\\BAL\\BusinessLayer.csproj": {
+    "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\BAL\\BusinessLayer.csproj",
+        "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\BAL\\BusinessLayer.csproj",
+        "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\ananth\\.nuget\\packages\\",
-        "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\BAL\\obj\\",
+        "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

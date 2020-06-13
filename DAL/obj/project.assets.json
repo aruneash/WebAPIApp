@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\DAL.csproj",
+      "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\OSPCDataAccessLayer.csproj",
+      "projectName": "OSPCDataAccessLayer",
+      "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\OSPCDataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\ananth\\.nuget\\packages\\",
       "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\obj\\",
       "projectStyle": "PackageReference",
