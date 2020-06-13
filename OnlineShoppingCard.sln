@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPCWebApi", "OSPCWebApi\OSPCWebApi.csproj", "{816269A1-66EC-46AE-8195-05F10DE924F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPCDataAccessLayer", "DAL\OSPCDataAccessLayer.csproj", "{825AC961-F4DB-4D37-9C04-F5F35C6886C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPCDataAccessLayer", "OSPCDataAccessLayer\OSPCDataAccessLayer.csproj", "{825AC961-F4DB-4D37-9C04-F5F35C6886C2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPCBusinessLayer", "BL\OSPCBusinessLayer.csproj", "{E2A9217A-CCF3-488D-A499-70A5C11EE27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPCBusinessLayer", "OSPCBusinessLayer\OSPCBusinessLayer.csproj", "{E2A9217A-CCF3-488D-A499-70A5C11EE27E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
