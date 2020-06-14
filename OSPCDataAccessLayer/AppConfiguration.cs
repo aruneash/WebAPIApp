@@ -16,7 +16,7 @@ namespace OSPCDataAccessLayer
             configurationBuilder.AddJsonFile(path, false);
 
             var root = configurationBuilder.Build();
-            _connectionString = root.GetSection("ConnectionStrings").GetSection("OnlineShoppingContext").Value;
+            _connectionString = root.GetSection("ConnectionStrings").GetSection("DBConnString").Value;
           //  var appSetting = root.GetSection("ApplicationSettings");
         }
         public string ConnectionString

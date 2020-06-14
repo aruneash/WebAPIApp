@@ -12,10 +12,14 @@ namespace OSPCWebApi.Services
 
     public class CategoryService : ICategoryService
     {
-        OnlineShoppingContext db;
+        OnlineShoppingContext db = new OnlineShoppingContext();
         public CategoryService(OnlineShoppingContext _db)
         {
             db = _db;
+        }
+
+        public CategoryService()
+        {
         }
 
         public async Task<int> AddCategory(Category model)
@@ -25,7 +29,7 @@ namespace OSPCWebApi.Services
                 await db.Categories.AddAsync(model);
                 await db.SaveChangesAsync();
 
-                return model.Id;
+                return 1;
             }
             return 0;
         }

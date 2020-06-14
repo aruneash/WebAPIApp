@@ -8,12 +8,12 @@ namespace OSPCDataAccessLayer.Context
 {
    public class OnlineShoppingContext : DbContext
     {
-        public OnlineShoppingContext()
-        {
-        }
 
         public OnlineShoppingContext(DbContextOptions<OnlineShoppingContext> options)
            : base(options)
+        {
+        }
+        public OnlineShoppingContext()
         {
         }
 
