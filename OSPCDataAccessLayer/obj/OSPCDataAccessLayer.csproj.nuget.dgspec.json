@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\OSPCDataAccessLayer.csproj": {}
+    "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\OSPCDataAccessLayer.csproj": {}
   },
   "projects": {
-    "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\OSPCDataAccessLayer.csproj": {
+    "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\OSPCDataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\OSPCDataAccessLayer.csproj",
+        "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\OSPCDataAccessLayer.csproj",
         "projectName": "OSPCDataAccessLayer",
-        "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\OSPCDataAccessLayer.csproj",
+        "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\OSPCDataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\ananth\\.nuget\\packages\\",
-        "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\DAL\\obj\\",
+        "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,26 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
