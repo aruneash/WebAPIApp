@@ -1,0 +1,9 @@
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\bin\Debug\netcoreapp3.1\OSPCBusinessLayer.deps.json
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\bin\Debug\netcoreapp3.1\OSPCBusinessLayer.dll
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\bin\Debug\netcoreapp3.1\OSPCBusinessLayer.pdb
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.csprojAssemblyReference.cache
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.AssemblyInfoInputs.cache
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.AssemblyInfo.cs
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.csproj.CoreCompileInputs.cache
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.dll
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.pdb

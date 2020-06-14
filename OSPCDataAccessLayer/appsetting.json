@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+  },
+
+  "ConnectionStrings": {
+    "OnlineShoppingContext": "Server=RUNDDU\\SQLEXPRESS;Database=OnlineShoppingCard;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
+
