@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OSPCBusinessLayer\OSPCBusinessLayer.csproj" />
     <ProjectReference Include="..\OSPCDataAccessLayer\OSPCDataAccessLayer.csproj" />
   </ItemGroup>
 

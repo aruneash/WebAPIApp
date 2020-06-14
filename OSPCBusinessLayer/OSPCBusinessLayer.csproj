@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="OnlineShoppingCartData.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OSPCDataAccessLayer\OSPCDataAccessLayer.csproj" />
+  </ItemGroup>
+
 </Project>

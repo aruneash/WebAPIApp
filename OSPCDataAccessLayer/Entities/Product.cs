@@ -18,5 +18,7 @@ namespace OSPCDataAccessLayer.Entities
         public DateTime CreatedDate { get; set; }
         public DateTime LastUpdate { get; set; }
 
+        public int CategoryId { get; set; }
+        public virtual Category Category { get; set; }
     }
 }

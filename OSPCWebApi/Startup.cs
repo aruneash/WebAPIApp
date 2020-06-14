@@ -28,11 +28,6 @@ namespace OSPCWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
-
-            //services.AddDbContext<OnlineShoppingContext>(options =>
-            //options.UseSqlServer(Configuration.GetConnectionString("OnlineShoppingContext")));
-
             services.AddDbContext<OnlineShoppingContext>();
 
         }

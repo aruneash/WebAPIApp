@@ -17,9 +17,6 @@ namespace OSPCDataAccessLayer
             //var connection = @"Server=RUNDDU\SQLEXPRESS;Database=OnlineShoppingCard;Trusted_Connection=True;";
             AppConfiguration config = new AppConfiguration();
             optionsBuilder.UseSqlServer(config.ConnectionString);
-
-          
-
             return new OnlineShoppingContext(optionsBuilder.Options);
         }
     }

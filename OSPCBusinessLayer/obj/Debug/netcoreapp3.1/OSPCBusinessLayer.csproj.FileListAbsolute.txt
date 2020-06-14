@@ -7,3 +7,6 @@ F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBu
 F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.csproj.CoreCompileInputs.cache
 F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.dll
 F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.pdb
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\bin\Debug\netcoreapp3.1\OSPCDataAccessLayer.dll
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\bin\Debug\netcoreapp3.1\OSPCDataAccessLayer.pdb
+F:\VirtusaAssignment\OSPCWebApi\OSPCBusinessLayer\obj\Debug\netcoreapp3.1\OSPCBusinessLayer.csproj.CopyComplete
