@@ -27,27 +27,25 @@ namespace OSPCWebApi.Services
             if (db != null)
             {
                 await db.Categories.AddAsync(model);
-                await db.SaveChangesAsync();
+                db.SaveChanges();
 
                 return 1;
             }
             return 0;
         }
 
-        public async Task<int> DeleteCategory(Category model)
+        public async Task<int> DeleteCategory(int id)
         {
             int result = 0;
             if (db != null)
             {
-                var category = await db.Categories.FirstOrDefaultAsync(x => x.Id == model.Id);
+                var category = await db.Categories.FirstOrDefaultAsync(x => x.Id == id);
 
                 if (category != null)
                 {
                      
                     db.Categories.Remove(category);
-
-                    //Commit the transaction
-                    result = await db.SaveChangesAsync();
+                    result =   db.SaveChanges();
                 }
                 return result;
             }
@@ -59,10 +57,11 @@ namespace OSPCWebApi.Services
             if (db != null)
             {
                  
-                db.Categories.Update(model);
-
-                //Commit the transaction
-               return await db.SaveChangesAsync();
+              //  db.Categories.Update(model);
+              db.Entry(model).State = EntityState.Modified;
+              await  db.SaveChangesAsync();
+               
+             return 1;
             }
             return 0;
         }
@@ -71,21 +70,32 @@ namespace OSPCWebApi.Services
         {
             if (db != null)
             {
-                return await db.Categories.ToListAsync();
+                var data = await db.Categories.ToListAsync();
+                return data;
             }
 
             return null;
         }
 
-        public async Task<Category> getViewCategory(Category model)
+        public async Task<Category> getViewCategory(int id)
         {
             if (db != null)
             {
-                return await db.Categories.FindAsync(model.Id);
+                return await db.Categories.FindAsync(id);
             }
 
             return null;
         }
-     
+
+        public  bool CategoryExists(int id)
+        {
+            if (db != null)
+            {
+              return   db.Categories.Any(e => e.Id == id);
+            }
+
+            return false;
+        }
+
     }
 }

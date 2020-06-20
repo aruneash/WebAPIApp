@@ -31,7 +31,7 @@ namespace CategoryServiceTest
             var actual = service.AddCategory(model);
 
             // Assert
-            Assert.AreEqual(1, actual);
+            Assert.AreEqual(1, actual.Result);
 
         }
     }

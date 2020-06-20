@@ -12,11 +12,13 @@ namespace OSPCBusinessLayer
 
         Task<int> UpdateCategory(Category model);
 
-        Task<int> DeleteCategory(Category model);
+        Task<int> DeleteCategory(int id);
 
-        Task<Category> getViewCategory(Category model);
+        Task<Category> getViewCategory(int id);
 
         Task<List<Category>> GetViewCategories();
 
+        bool CategoryExists(int id);
+        
     }
 }
