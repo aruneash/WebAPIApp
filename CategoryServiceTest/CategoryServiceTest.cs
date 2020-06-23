@@ -24,7 +24,7 @@ namespace CategoryServiceTest
                 Name = "Puma",
                 CreatedDate = DateTime.Now,
                 IsActive = true,
-                Product = modelProduct
+                Products = modelProduct
             };
 
             // Act

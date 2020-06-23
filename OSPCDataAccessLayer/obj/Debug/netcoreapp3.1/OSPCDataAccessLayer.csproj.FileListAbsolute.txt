@@ -3,10 +3,10 @@ F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\bin\Debug\netcoreapp3.1\OSPC
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\bin\Debug\netcoreapp3.1\OSPCDataAccessLayer.runtimeconfig.dev.json
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\bin\Debug\netcoreapp3.1\OSPCDataAccessLayer.dll
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\bin\Debug\netcoreapp3.1\OSPCDataAccessLayer.pdb
-F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\obj\Debug\netcoreapp3.1\OSPCDataAccessLayer.csprojAssemblyReference.cache
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\obj\Debug\netcoreapp3.1\OSPCDataAccessLayer.AssemblyInfoInputs.cache
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\obj\Debug\netcoreapp3.1\OSPCDataAccessLayer.AssemblyInfo.cs
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\obj\Debug\netcoreapp3.1\OSPCDataAccessLayer.csproj.CoreCompileInputs.cache
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\obj\Debug\netcoreapp3.1\OSPCDataAccessLayer.dll
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\obj\Debug\netcoreapp3.1\OSPCDataAccessLayer.pdb
 F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\obj\Debug\netcoreapp3.1\OSPCDataAccessLayer.genruntimeconfig.cache
+F:\VirtusaAssignment\OSPCWebApi\OSPCDataAccessLayer\obj\Debug\netcoreapp3.1\OSPCDataAccessLayer.csprojAssemblyReference.cache

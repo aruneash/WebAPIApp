@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace OSPCDataAccessLayer.Entities
@@ -21,7 +22,7 @@ namespace OSPCDataAccessLayer.Entities
         public DateTime LastUpdate { get; set; }
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
-        public virtual Image  Image { get; set; }
+        public virtual Image Image { get; set; }
         public int ImageId { get; set; }
     }
 }

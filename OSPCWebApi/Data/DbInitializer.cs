@@ -58,17 +58,19 @@ namespace OSPCWebApi.Data
 
             var products = new Product[]
             {
+
                 new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 1,ImageId=1,IsActive = true},
                 new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=80,Discount=50, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 2,ImageId=2,IsActive = true},
                 new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 3,ImageId=3,IsActive = true},
                 new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 4,ImageId=4,IsActive = true},
-                new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 5,ImageId=5,IsActive = true},
-                new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=80,Discount=50, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 6,ImageId=6,IsActive = true},
-                new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 7,ImageId=7,IsActive = true},
-                new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 8,ImageId=8,IsActive = true},
+                new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 1,ImageId=5,IsActive = true},
+                new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=80,Discount=50, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 2,ImageId=6,IsActive = true},
+                new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 3,ImageId=7,IsActive = true},
+                new Product{Name="NIKE FREE RN 2019 ID",Description=desc,Qty =10,SellingPrice=120,Discount=0, UnitPrice = 120, CreatedDate=DateTime.Parse(date),CategoryId = 4,ImageId=8,IsActive = true},
             };
 
             context.Products.AddRange(products);
+
             context.SaveChanges();
  
         }

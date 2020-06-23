@@ -7,7 +7,7 @@ namespace OSPCDataAccessLayer.Entities
 {
     public class Category
     {
-        [Key]
+      [Key]
         public int Id { get; set; }
 
         public string Name { get; set; }
@@ -18,7 +18,7 @@ namespace OSPCDataAccessLayer.Entities
 
         public DateTime LastUpdate { get; set; }
 
-        public ICollection<Product> Product { get; set; }
+        public ICollection<Product> Products { get; set; }
 
     }
 }

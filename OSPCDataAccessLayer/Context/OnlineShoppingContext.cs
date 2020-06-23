@@ -1,11 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using OSPCDataAccessLayer.Entities;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
 using System.IO;
-using System.Text;
 
 namespace OSPCDataAccessLayer.Context
 {
@@ -20,6 +16,20 @@ namespace OSPCDataAccessLayer.Context
         //{
         //    optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["DBConnString"].ConnectionString);
         //}
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Category>()
+                .HasMany<Product>(s => s.Products)
+                .WithOne(g => g.Category)
+                .HasForeignKey(s => s.CategoryId);
+
+
+            modelBuilder.Entity<Product>()
+                .HasOne<Category>(s => s.Category)
+                .WithMany(g => g.Products)
+                .HasForeignKey(s => s.CategoryId);
+        }
 
         public OnlineShoppingContext()
         {

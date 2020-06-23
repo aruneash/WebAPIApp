@@ -22,7 +22,8 @@ namespace OSPCWebApi.Services
         {
             if (db != null)
             {
-                return await db.Products.FindAsync(id);
+                var data =  await db.Products.FindAsync(id);
+                return GetImagesByProduct(data);
             }
 
             return null;
@@ -33,10 +34,39 @@ namespace OSPCWebApi.Services
             if (db != null)
             {
                 var data = await db.Products.ToListAsync();
-                return data;
+                return GetImagesByProduct(data);
             }
 
             return null;
         }
+
+        public List<Product> GetImagesByProduct(List<Product> products)
+        {
+            if (db != null)
+            {
+                foreach (var product in products)
+                {
+                  var imageData = db.Images.SingleOrDefault(x=>x.Id == product.ImageId);
+                  product.Image = imageData;
+                }
+                return products;
+            }
+
+            return null;
+        }
+
+        public Product GetImagesByProduct(Product model)
+        {
+            if (db != null)
+            {
+                    var imageData = db.Images.SingleOrDefault(x => x.Id == model.ImageId);
+                    model.Image = imageData;
+                
+                return model;
+            }
+
+            return null;
+        }
+
     }
 }

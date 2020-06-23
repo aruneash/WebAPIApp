@@ -231,3 +231,6 @@ F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\obj\Debug\netcoreapp3.1\Cate
 F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\obj\Debug\netcoreapp3.1\CategoryServiceTest.dll
 F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\obj\Debug\netcoreapp3.1\CategoryServiceTest.pdb
 F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\obj\Debug\netcoreapp3.1\CategoryServiceTest.genruntimeconfig.cache
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

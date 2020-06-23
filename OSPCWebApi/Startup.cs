@@ -42,7 +42,11 @@ namespace OSPCWebApi
                                 .AllowAnyHeader()
                                 .AllowAnyMethod();
                             });
-    });
+            });
+            services.AddControllersWithViews()
+                .AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            );
 
             services.AddTransient<ICategoryService, CategoryService>();
             services.AddTransient<IProductService, ProductService>();

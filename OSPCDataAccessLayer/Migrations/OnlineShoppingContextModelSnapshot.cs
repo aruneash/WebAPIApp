@@ -113,7 +113,7 @@ namespace OSPCDataAccessLayer.Migrations
             modelBuilder.Entity("OSPCDataAccessLayer.Entities.Product", b =>
                 {
                     b.HasOne("OSPCDataAccessLayer.Entities.Category", "Category")
-                        .WithMany("Product")
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
