@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using OSPCBusinessLayer;
 using OSPCDataAccessLayer.Context;
 using OSPCDataAccessLayer.Entities;
@@ -17,64 +18,37 @@ namespace OSPCWebApi.Controllers
     {
         // private readonly OnlineShoppingContext _context;
         private ICategoryService _categoryService;
+        private readonly ILogger _logger;
 
-        public CategoryController(ICategoryService categoryService)
+        public CategoryController(ICategoryService categoryService, ILogger<CategoryController> logger)
         {
             _categoryService = categoryService;
+            _logger = logger;
         }
 
         // GET: api/Category
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
+        public async Task<ActionResult<IEnumerable<Category>>> Get()
         {
-            return await _categoryService.GetViewCategories();
+            _logger.LogInformation("Start : Getting category List");
+            var data = await _categoryService.GetViewCategories();
+            _logger.LogInformation("Completed : category List", data);
+            return data;
         }
 
         // GET: api/Category/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Category>> GetCategory(int id)
+        public async Task<ActionResult<Category>> Get(int id)
         {
+            _logger.LogInformation("Start : Getting category details for {id}", id);
             var category = await _categoryService.getViewCategory(id);
 
             if (category == null)
             {
                 return NotFound();
             }
-
+            _logger.LogInformation("Completed : category details for {Id}", category);
             return category;
-        }
-
-        // PUT: api/Category/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCategory(Category category)
-        {
-            await _categoryService.UpdateCategory(category);
-            return Ok(category);
-        }
-
-        // POST: api/Category
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost]
-        public async Task<ActionResult<Category>> PostCategory(Category category)
-        {
-           await _categoryService.AddCategory(category);
-           return CreatedAtAction("GetCategory", new { id = category.Id }, category);
-        }
-
-        // DELETE: api/Category/5
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<int>> DeleteCategory(int id)
-        {
-            var category = await _categoryService.DeleteCategory(id);
-            return category;
-        }
-
-        private bool CategoryExists(int id)
-        {
-            return _categoryService.CategoryExists(id);
         }
     }
 }

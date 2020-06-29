@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using OSPCDataAccessLayer.Context;
 using OSPCWebApi.Data;
+using Serilog;
 
 namespace OSPCWebApi
 {
@@ -16,6 +17,12 @@ namespace OSPCWebApi
     {
         public static void Main(string[] args)
         {
+            //Seri Logging
+             Log.Logger = new LoggerConfiguration()
+            .WriteTo.RollingFile("OnlineShopping-log-{Date}.txt")
+            .CreateLogger();
+
+
             var host = CreateHostBuilder(args).Build();
 
             using (var scope = host.Services.CreateScope())
@@ -34,7 +41,7 @@ namespace OSPCWebApi
             }
 
             host.Run();
-
+            Log.CloseAndFlush();
 
             //  CreateHostBuilder(args).Build().Run();
         }
@@ -44,6 +51,6 @@ namespace OSPCWebApi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                }).UseSerilog();
     }
 }

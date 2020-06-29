@@ -18,6 +18,10 @@ namespace OSPCWebApi.Services
             db = _db;
         }
 
+        public ProductService()
+        {
+        }
+
         public async Task<Product> getViewProduct(int id)
         {
             if (db != null)
