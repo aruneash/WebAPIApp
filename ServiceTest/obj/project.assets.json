@@ -10818,11 +10818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\ServiceTest.csproj",
+      "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\ServiceTest.csproj",
       "projectName": "ServiceTest",
-      "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\ServiceTest.csproj",
+      "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\ServiceTest.csproj",
       "packagesPath": "C:\\Users\\ananth\\.nuget\\packages\\",
-      "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\obj\\",
+      "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

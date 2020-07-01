@@ -1,109 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\ServiceTest.csproj": {}
+    "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\ServiceTest.csproj": {}
   },
   "projects": {
-    "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\ServiceTest.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\ServiceTest.csproj",
-        "projectName": "ServiceTest",
-        "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\ServiceTest.csproj",
-        "packagesPath": "C:\\Users\\ananth\\.nuget\\packages\\",
-        "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ananth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCBusinessLayer\\OSPCBusinessLayer.csproj": {
-                "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCBusinessLayer\\OSPCBusinessLayer.csproj"
-              },
-              "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\OSPCDataAccessLayer.csproj": {
-                "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\OSPCDataAccessLayer.csproj"
-              },
-              "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCWebApi\\OSPCWebApi.csproj": {
-                "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCWebApi\\OSPCWebApi.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.5.0, )"
-            },
-            "Microsoft.TestPlatform": {
-              "target": "Package",
-              "version": "[16.6.1, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[1.2.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCBusinessLayer\\OSPCBusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -335,6 +235,106 @@
             "Serilog.Sinks.RollingFile": {
               "target": "Package",
               "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\ServiceTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\ServiceTest.csproj",
+        "projectName": "ServiceTest",
+        "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\ServiceTest.csproj",
+        "packagesPath": "C:\\Users\\ananth\\.nuget\\packages\\",
+        "outputPath": "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ananth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCBusinessLayer\\OSPCBusinessLayer.csproj": {
+                "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCBusinessLayer\\OSPCBusinessLayer.csproj"
+              },
+              "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\OSPCDataAccessLayer.csproj": {
+                "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCDataAccessLayer\\OSPCDataAccessLayer.csproj"
+              },
+              "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCWebApi\\OSPCWebApi.csproj": {
+                "projectPath": "F:\\VirtusaAssignment\\OSPCWebApi\\OSPCWebApi\\OSPCWebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Microsoft.TestPlatform": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             }
           },
           "imports": [

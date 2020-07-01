@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aBIJuiQWv14QdabRVktOO3+ndZt+MkOIzLIl/3WHif6p+DP/XCb1cGS92+ijtLGJCJElUETBq/KgF2pZMlWXog==",
+  "dgSpecHash": "SMHqGd5mH5iNBPRff8Yul15vDWZXeGJxqMHSXuTux+nuOE0i1EjYw2yABHMlnTs8XbktIiOjieKq2F4QT+PHQg==",
   "success": true,
-  "projectFilePath": "F:\\VirtusaAssignment\\OSPCWebApi\\CategoryServiceTest\\ServiceTest.csproj",
+  "projectFilePath": "F:\\VirtusaAssignment\\OSPCWebApi\\ServiceTest\\ServiceTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ananth\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\ananth\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",

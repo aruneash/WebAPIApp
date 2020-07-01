@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPCDataAccessLayer", "OSPC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPCBusinessLayer", "OSPCBusinessLayer\OSPCBusinessLayer.csproj", "{E2A9217A-CCF3-488D-A499-70A5C11EE27E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceTest", "CategoryServiceTest\ServiceTest.csproj", "{501166D7-32C8-4AE5-A190-7E75F510AB6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceTest", "ServiceTest\ServiceTest.csproj", "{501166D7-32C8-4AE5-A190-7E75F510AB6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
