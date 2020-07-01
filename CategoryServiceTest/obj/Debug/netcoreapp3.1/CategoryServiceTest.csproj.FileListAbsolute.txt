@@ -234,3 +234,13 @@ F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\obj\Debug\netcoreapp3.1\Cate
 F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+F:\VirtusaAssignment\OSPCWebApi\CategoryServiceTest\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
